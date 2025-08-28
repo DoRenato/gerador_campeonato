@@ -15,10 +15,10 @@ possiveis_confrontos=gerar_confrontos_possiveis(lista_de_times)
 # Cria uma nova lista filtrando todos os confrontos unicos e removendo os repetidos
 confrontos_unicos=filtrar_confrontos_unicos(possiveis_confrontos)
 
-# Cria todas as rodadas do campeonato, funciona tanto pra quantidade impares ou pares do total de times
-rodadas=criar_todas_rodadas(lista_de_times, confrontos_unicos)
+# Cria todas as rodadas do campeonato, se 'casa_fora' estiver como True irá criar os jogos de ida e volta. 
+rodadas=criar_todas_rodadas(lista_de_times, confrontos_unicos, casa_fora=False)
 
-# Esse trecho é apenas para a saida formatada no arquivo rodadas.txt
+# Esse trecho é apenas para criar uma saída formatada no arquivo rodadas.txt
 string=""
 for rodada, jogos in rodadas.items():
     string_atual=f"{rodada}:\n"

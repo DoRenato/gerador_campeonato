@@ -1,0 +1,42 @@
+Rodada 1:
+  - Inter de Milan vs Atl. Madrid
+  - Chelsea vs Barcelona
+  - AC Milan vs Man. City
+  - Liverpool vs PSG
+
+Rodada 2:
+  - Inter de Milan vs Chelsea
+  - Atl. Madrid vs Barcelona
+  - AC Milan vs Liverpool
+  - Man. City vs PSG
+
+Rodada 3:
+  - Inter de Milan vs Barcelona
+  - Atl. Madrid vs Chelsea
+  - AC Milan vs PSG
+  - Man. City vs Liverpool
+
+Rodada 4:
+  - Inter de Milan vs AC Milan
+  - Atl. Madrid vs Man. City
+  - Chelsea vs Liverpool
+  - Barcelona vs PSG
+
+Rodada 5:
+  - Inter de Milan vs Man. City
+  - Atl. Madrid vs AC Milan
+  - Chelsea vs PSG
+  - Barcelona vs Liverpool
+
+Rodada 6:
+  - Inter de Milan vs Liverpool
+  - Atl. Madrid vs PSG
+  - Chelsea vs AC Milan
+  - Barcelona vs Man. City
+
+Rodada 7:
+  - Inter de Milan vs PSG
+  - Atl. Madrid vs Liverpool
+  - Chelsea vs Man. City
+  - Barcelona vs AC Milan
+

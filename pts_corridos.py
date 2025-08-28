@@ -33,6 +33,20 @@ def filtrar_confrontos_unicos(confrontos_possiveis): # Vai criar todos os confro
     return jogos_unicos
 
 
+def dividir_turnos(dict_rodadas):
+    novo_dict={}
+    for rodada in dict_rodadas:
+        novo_dict[rodada]=dict_rodadas[rodada]
+    num_segundo_turno=len(dict_rodadas)+1
+    for rodada in dict_rodadas:
+        rodada_atual=[]
+        for jogos in dict_rodadas[rodada]:
+            rodada_atual.append(jogos[::-1])
+        novo_dict[f'Rodada {num_segundo_turno}']=rodada_atual
+        num_segundo_turno+=1
+    return novo_dict
+
+
 def validar_times_rodada(confronto_atual, lista_rodada_atual):
     if len(lista_rodada_atual)>0:
         for time in confronto_atual:
@@ -58,16 +72,19 @@ def montar_rodada(confrontos_unicos, lista_confrontos_marcados):
     return rodada_atual
 
 
-def criar_todas_rodadas(lista_de_times, confrontos_unicos):
+def criar_todas_rodadas(lista_de_times, confrontos_unicos, casa_fora=False):
     num_total_rodadas= len(lista_de_times)-1 if len(lista_de_times)%2==0 else len(lista_de_times)
     contador_rodada=1
-    todas_rodadas={}
+    todas_rodadas_jogo_unico={}
     lista_confrontos_marcados=[]
     while contador_rodada<=num_total_rodadas:
         string=f"Rodada {contador_rodada}"
         rodada_atual=montar_rodada(confrontos_unicos, lista_confrontos_marcados)
         for confronto_criado in rodada_atual:
             lista_confrontos_marcados.append(confronto_criado)
-        todas_rodadas[string]=rodada_atual
+        todas_rodadas_jogo_unico[string]=rodada_atual
         contador_rodada+=1
-    return todas_rodadas
+    if casa_fora:
+        todas_rodadas_casa_fora=dividir_turnos(todas_rodadas_jogo_unico)
+        return todas_rodadas_casa_fora
+    return todas_rodadas_jogo_unico
