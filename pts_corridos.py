@@ -1,7 +1,13 @@
-def times_em_lista(times_sorteados):
+import random
+
+
+
+def times_em_lista(times_sorteados, randomizar=True):
     times=[]
     for time in times_sorteados:
-        times.append(times_sorteados[time])
+        times.append(time)
+    if randomizar:
+        random.shuffle(times)
     return times
 
 
@@ -72,7 +78,7 @@ def montar_rodada(confrontos_unicos, lista_confrontos_marcados):
     return rodada_atual
 
 
-def criar_todas_rodadas(lista_de_times, confrontos_unicos, casa_fora=False):
+def criar_todas_rodadas(lista_de_times, confrontos_unicos):
     num_total_rodadas= len(lista_de_times)-1 if len(lista_de_times)%2==0 else len(lista_de_times)
     contador_rodada=1
     todas_rodadas_jogo_unico={}
@@ -84,7 +90,4 @@ def criar_todas_rodadas(lista_de_times, confrontos_unicos, casa_fora=False):
             lista_confrontos_marcados.append(confronto_criado)
         todas_rodadas_jogo_unico[string]=rodada_atual
         contador_rodada+=1
-    if casa_fora:
-        todas_rodadas_casa_fora=dividir_turnos(todas_rodadas_jogo_unico)
-        return todas_rodadas_casa_fora
     return todas_rodadas_jogo_unico

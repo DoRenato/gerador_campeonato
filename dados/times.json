@@ -1,10 +1,10 @@
 {
-    "Fulano": "Inter de Milan",
-    "Cicrano": "Atl. Madrid",
-    "Beltrano": "Chelsea",
-    "Fulaninho": "Barcelona",
-    "Cicraninho": "AC Milan",
-    "Beltraninho": "Man. City",
-    "Deltrando": "Liverpool",
-    "Deltrandinho": "PSG"
+    "Inter de Milan": "Fulano",
+    "Atl. Madrid": "Cicrano",
+    "Chelsea": "Beltrano",
+    "Barcelona": "Fulaninho",
+    "AC Milan": "Cicraninho",
+    "Man. City": "Beltraninho",
+    "Liverpool": "Deltrando",
+    "PSG": "Deltrandinho"
 }
