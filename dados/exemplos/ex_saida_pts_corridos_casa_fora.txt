@@ -1,84 +1,83 @@
 Rodada 1:
-  - Inter de Milan vs Atl. Madrid
-  - Chelsea vs Barcelona
-  - AC Milan vs Man. City
-  - Liverpool vs PSG
+  - Liverpool vs Man. City
+  - Atl. Madrid vs Barcelona
+  - Chelsea vs AC Milan
+  - PSG vs Inter de Milan
 
 Rodada 2:
-  - Inter de Milan vs Chelsea
-  - Atl. Madrid vs Barcelona
-  - AC Milan vs Liverpool
-  - Man. City vs PSG
+  - Liverpool vs Atl. Madrid
+  - Man. City vs Barcelona
+  - Chelsea vs PSG
+  - AC Milan vs Inter de Milan
 
 Rodada 3:
-  - Inter de Milan vs Barcelona
-  - Atl. Madrid vs Chelsea
+  - Liverpool vs Barcelona
+  - Man. City vs Atl. Madrid
+  - Chelsea vs Inter de Milan
   - AC Milan vs PSG
-  - Man. City vs Liverpool
 
 Rodada 4:
-  - Inter de Milan vs AC Milan
-  - Atl. Madrid vs Man. City
-  - Chelsea vs Liverpool
-  - Barcelona vs PSG
+  - Liverpool vs Chelsea
+  - Man. City vs AC Milan
+  - Atl. Madrid vs PSG
+  - Barcelona vs Inter de Milan
 
 Rodada 5:
-  - Inter de Milan vs Man. City
-  - Atl. Madrid vs AC Milan
-  - Chelsea vs PSG
-  - Barcelona vs Liverpool
+  - Liverpool vs AC Milan
+  - Man. City vs Chelsea
+  - Atl. Madrid vs Inter de Milan
+  - Barcelona vs PSG
 
 Rodada 6:
-  - Inter de Milan vs Liverpool
-  - Atl. Madrid vs PSG
-  - Chelsea vs AC Milan
-  - Barcelona vs Man. City
-
-Rodada 7:
-  - Inter de Milan vs PSG
-  - Atl. Madrid vs Liverpool
-  - Chelsea vs Man. City
+  - Liverpool vs PSG
+  - Man. City vs Inter de Milan
+  - Atl. Madrid vs Chelsea
   - Barcelona vs AC Milan
 
-Rodada 8:
-  - Atl. Madrid vs Inter de Milan
+Rodada 7:
+  - Liverpool vs Inter de Milan
+  - Man. City vs PSG
+  - Atl. Madrid vs AC Milan
   - Barcelona vs Chelsea
-  - Man. City vs AC Milan
-  - PSG vs Liverpool
+
+Rodada 8:
+  - Man. City vs Liverpool
+  - Barcelona vs Atl. Madrid
+  - AC Milan vs Chelsea
+  - Inter de Milan vs PSG
 
 Rodada 9:
-  - Chelsea vs Inter de Milan
-  - Barcelona vs Atl. Madrid
-  - Liverpool vs AC Milan
-  - PSG vs Man. City
+  - Atl. Madrid vs Liverpool
+  - Barcelona vs Man. City
+  - PSG vs Chelsea
+  - Inter de Milan vs AC Milan
 
 Rodada 10:
-  - Barcelona vs Inter de Milan
-  - Chelsea vs Atl. Madrid
+  - Barcelona vs Liverpool
+  - Atl. Madrid vs Man. City
+  - Inter de Milan vs Chelsea
   - PSG vs AC Milan
-  - Liverpool vs Man. City
 
 Rodada 11:
-  - AC Milan vs Inter de Milan
-  - Man. City vs Atl. Madrid
-  - Liverpool vs Chelsea
-  - PSG vs Barcelona
+  - Chelsea vs Liverpool
+  - AC Milan vs Man. City
+  - PSG vs Atl. Madrid
+  - Inter de Milan vs Barcelona
 
 Rodada 12:
-  - Man. City vs Inter de Milan
-  - AC Milan vs Atl. Madrid
-  - PSG vs Chelsea
-  - Liverpool vs Barcelona
+  - AC Milan vs Liverpool
+  - Chelsea vs Man. City
+  - Inter de Milan vs Atl. Madrid
+  - PSG vs Barcelona
 
 Rodada 13:
-  - Liverpool vs Inter de Milan
-  - PSG vs Atl. Madrid
-  - AC Milan vs Chelsea
-  - Man. City vs Barcelona
-
-Rodada 14:
-  - PSG vs Inter de Milan
-  - Liverpool vs Atl. Madrid
-  - Man. City vs Chelsea
+  - PSG vs Liverpool
+  - Inter de Milan vs Man. City
+  - Chelsea vs Atl. Madrid
   - AC Milan vs Barcelona
 
+Rodada 14:
+  - Inter de Milan vs Liverpool
+  - PSG vs Man. City
+  - AC Milan vs Atl. Madrid
+  - Chelsea vs Barcelona

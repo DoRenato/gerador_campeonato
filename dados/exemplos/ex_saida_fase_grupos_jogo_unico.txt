@@ -1,0 +1,17 @@
+Rodada 1:
+  - Chelsea vs Atl. Madrid (Grupo A)
+  - PSG vs Barcelona (Grupo A)
+  - AC Milan vs Inter de Milan (Grupo B)
+  - Man. City vs Liverpool (Grupo B)
+
+Rodada 2:
+  - Chelsea vs PSG (Grupo A)
+  - Atl. Madrid vs Barcelona (Grupo A)
+  - AC Milan vs Man. City (Grupo B)
+  - Inter de Milan vs Liverpool (Grupo B)
+
+Rodada 3:
+  - Chelsea vs Barcelona (Grupo A)
+  - Atl. Madrid vs PSG (Grupo A)
+  - AC Milan vs Liverpool (Grupo B)
+  - Inter de Milan vs Man. City (Grupo B)
