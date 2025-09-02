@@ -2,6 +2,23 @@
 
 Este programa foi desenvolvido para criar campeonatos de futebol eletrônico (eFootball, FIFA, etc.), onde você pode organizar torneios com múltiplos jogadores e times.
 
+## Requisitos
+
+- **Python 3.13+** (testado com Python 3.13.7)
+- Nenhuma dependência externa necessária (usa apenas bibliotecas padrão do Python)
+
+## Instalação
+
+1. Clone ou baixe este repositório
+2. Certifique-se de ter Python 3.13+ instalado
+3. (Opcional) Crie um ambiente virtual:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # Windows
+   # ou
+   source venv/bin/activate  # Linux/Mac
+   ```
+
 ## Como Funciona
 
 O programa suporta dois tipos de campeonato:

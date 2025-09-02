@@ -8,12 +8,6 @@ from pts_corridos import (
 
 
 
-# def time_em_lista(times_list,randomizar_times=True):
-#     if randomizar_times:
-#         times_list=random.sample(times_list, len(times_list))
-#     return times_list
-
-
 def validar_criacao_fase_grupo(times_list, qtd_grupos=2):
     total_times=len(times_list)
     times_prox_fase=2 # quantidade de times por grupo que passam pra proxima fase
@@ -77,22 +71,3 @@ def formatar_rodadas_fase_grupos(rodadas_organizadas_fase_grupos):
         string_atual+='\n'
         string+=string_atual
     return string
-
-
-
-if __name__ == '__main__':
-    from utils import ler_json_times, times_em_lista
-
-    times_dict=ler_json_times('times')
-    times=times_em_lista(times_dict)
-    grupos=dividir_times_em_grupos(times, qtd_grupos=2)
-
-    confrontos_unicos_grupos={}
-    for grupo in grupos:
-        confrontos_possiveis=gerar_confrontos_possiveis(grupos[grupo])
-        confrontos_unicos=filtrar_confrontos_unicos(confrontos_possiveis)
-        confrontos_unicos_grupos[grupo]=confrontos_unicos
-    
-
-    print(grupos)
-    print(confrontos_unicos_grupos)
