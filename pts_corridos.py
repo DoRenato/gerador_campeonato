@@ -2,15 +2,6 @@ import random
 
 
 
-def times_em_lista(times_sorteados, randomizar=True):
-    times=[]
-    for time in times_sorteados:
-        times.append(time)
-    if randomizar:
-        random.shuffle(times)
-    return times
-
-
 def gerar_confrontos_possiveis(times_em_lista):
     confrontos={}
     for time in times_em_lista:
@@ -91,3 +82,14 @@ def criar_todas_rodadas(lista_de_times, confrontos_unicos):
         todas_rodadas_jogo_unico[string]=rodada_atual
         contador_rodada+=1
     return todas_rodadas_jogo_unico
+
+
+def formatar_rodadas_pts_corridos(todas_rodadas):
+    string=""
+    for rodada, jogos in todas_rodadas.items(): # Esse trecho é apenas para a saida formatada no arquivo rodadas.txt
+        string_atual=f"{rodada}:\n"
+        for time1, time2 in jogos:
+            string_atual+=f"  - {time1} vs {time2}\n"
+        string_atual+='\n'
+        string+=string_atual
+    return string
