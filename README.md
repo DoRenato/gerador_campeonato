@@ -29,7 +29,7 @@ O programa suporta dois tipos de campeonato:
 
 ### 1. Preparar o Arquivo de Times
 
-Crie um arquivo JSON na pasta `dados/` com a seguinte estrutura:
+Crie um arquivo JSON na pasta `dados/` com uma das seguintes estruturas:
 
 ```json
 {
@@ -42,6 +42,19 @@ Crie um arquivo JSON na pasta `dados/` com a seguinte estrutura:
     "Liverpool": "Deltrando",
     "PSG": "Deltrandinho"
 }
+
+// Ou então uma lista (array) com somente os nomes dos times
+
+[
+    "Inter de Milan",
+    "Atl. Madrid",
+    "Chelsea",
+    "Barcelona",
+    "AC Milan",
+    "Man. City",
+    "Liverpool",
+    "PSG"
+]
 ```
 
 **Formato**: `"Nome do Time": "Nome do Jogador"`

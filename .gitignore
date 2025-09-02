@@ -176,6 +176,9 @@ Desktop.ini
 *~
 
 # Arquivos específicos do projeto
+dados/times.json
+dados/rodadas_fase_grupos.txt
+dados/rodadas_pts_corridos.txt
 testando/
 testes/
 teste.py
